@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position:relative;
+    overflow:hidden;
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: orange;
+}
+#about-me{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: pink;
+}
+#project{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: green;
+}
+#contact-me{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: skyblue;
+}
