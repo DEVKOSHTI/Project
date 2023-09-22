@@ -17,7 +17,6 @@ html,body{
     gap: 25px;
     justify-content: flex-start;
     z-index: 99;
-    background-color: #ff7700;
 }
 #nav img{
     height: 67px;
