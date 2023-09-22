@@ -7,6 +7,28 @@ html,body{
     height: 100%;
     width: 100%;
 }
+#nav{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    gap: 25px;
+    justify-content: flex-start;
+    z-index: 99;
+    background-color: #ff7700;
+}
+#nav img{
+    height: 67px;
+}
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500 ;
+}
 #main{
     position:relative;
     overflow:hidden;
