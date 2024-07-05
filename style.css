@@ -1,73 +1,169 @@
-*{
+/* Global styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+/* Navbar styles */
+.navbar {
     background: white;
 }
-.nav-link{
+
+.nav-link {
     color: black;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: white;
     background-color: black;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 1.25rem;
     font-weight: 800;
     color: black;
     cursor: pointer;
     text-decoration: none;
 }
-.boss{
-    background: url()no-repeat;
+
+/* Container and main section styles */
+.boss {
+    background: url() no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-.main{
-    /* background: url(snapedit_1704841151428.png)no-repeat; */
+
+.main {
     background-size: cover;
     width: 100%;
     height: 83vh;
 }
-.main h3{
+
+/* Heading and button styles */
+.main h3 {
     font-size: 4.4rem;
     font-weight: 700;
 }
-.main h4{
+
+.main h4 {
     font-size: 3.3rem;
     font-weight: 200;
 }
-.main h6{
+
+.main h6 {
     font-size: 1.4rem;
     text-transform: uppercase;
     line-height: 1;
     border-bottom: 3px solid rgb(233, 20, 109);
     width: 240px;
 }
-.main .bt1{
+
+.main .bt1,
+.main .bt2 {
     width: 138px;
     height: 55px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1 {
     background-color: rgb(233, 20, 109);
     color: white;
     outline: none;
     border: none;
-    font-weight: bold;
-    border-radius: 5px;
 }
-.main .bt2{
-    width: 138px;
-    height: 55px;
+
+.main .bt2 {
     background-color: transparent;
     color: rgb(233, 20, 109);
     outline: none;
     border: 1px solid rgb(233, 20, 109);
-    font-weight: bold;
-    border-radius: 5px;
+}
+
+/* Responsive font sizes */
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.35rem;
+    }
+
+    .main h3 {
+        font-size: 5rem;
+    }
+
+    .main h4 {
+        font-size: 3.5rem;
+    }
+
+    .main h6 {
+        font-size: 1.6rem;
+    }
+
+    .main .bt1,
+    .main .bt2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .main h3 {
+        font-size: 6rem;
+    }
+
+    .main h4 {
+        font-size: 4rem;
+    }
+
+    .main h6 {
+        font-size: 1.8rem;
+    }
+
+    .main .bt1,
+    .main .bt2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    .main h3 {
+        font-size: 7rem;
+    }
+
+    .main h4 {
+        font-size: 4.5rem;
+    }
+
+    .main h6 {
+        font-size: 2rem;
+    }
+
+    .main .bt1,
+    .main .bt2 {
+        font-size: 1.3rem;
+    }
 }
