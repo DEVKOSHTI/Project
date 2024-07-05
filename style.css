@@ -31,7 +31,7 @@
     height: 100vh;
 }
 .main{
-    background: url(snapedit_1704841151428.png)no-repeat;
+    /* background: url(snapedit_1704841151428.png)no-repeat; */
     background-size: cover;
     width: 100%;
     height: 83vh;
