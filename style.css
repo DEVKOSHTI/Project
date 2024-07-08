@@ -9,8 +9,8 @@
 /* Container and main section styles */
 .boss {
     background-color: black;
-    min-width: 100%;
-    min-height: 100dvh;
+    width: 100%;
+    height: var(--dynamic-vh);
     color: white;
 }
 
