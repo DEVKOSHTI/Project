@@ -178,7 +178,7 @@ h6 {
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
     border-radius: 10px;
 }
@@ -191,4 +191,16 @@ h6 {
     border-radius: 50%;
 }
 
-
+.carousel-item,img{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: black;
+}
+ .carousel-item img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     /* Ensure the image covers the container while maintaining aspect ratio */
+     border-radius: 10px;
+     /* Change this value to set the border radius */
+ }
