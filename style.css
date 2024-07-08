@@ -7,13 +7,16 @@
 }
 
 /* Container and main section styles */
+:root {
+    --dynamic-vh: 100vh;
+}
+
 .boss {
     background-color: black;
     width: 100%;
-    height: 100dvh;
+    height: var(--dynamic-vh);
     color: white;
 }
-
 .main {
     width: 100%;
     height: 100%;
